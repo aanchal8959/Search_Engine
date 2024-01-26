@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            div{
+                margin-top:-500px;
+                margin-left:1300px;
+                
+
+            }
+            #submit{
+                margin-left:650px;
+                margin-top:200px;
+                border:0px;
+                background-color:#4d90fe;
+                color:white;
+                padding:10px;
+            }
+            p{
+                margin-top:100px;
+                margin-left:50px
+            }
+            img{
+                width:100px;
+                margin-top:-150px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Find pages with...</p>
+        
+        <form action="https://google.com/search">
+            <table style="margin-top:-70px; margin-left:50px; border-spacing:0 1em;">
+            <tr>
+                <td>all these words:</td>
+                <td> <input type="text" name="as_q" ></td>
+            </tr><br>
+            <tr>
+                <td>this exact word or phrase:</td>
+                <td><input type="text" name="as_epq" ></td> 
+            </tr><br>
+            <tr>
+            <td>any of these words:</td>
+            <td><input type="text" name="as_oq"></td> 
+            </tr><br>
+            <tr>
+            <td>none of these words:</td> 
+            <td><input type="text" name="as_eq"></td>
+            </tr><br>
+        </table>
+            <input type="submit" value="Advanced Search" id="submit">
+        </form>
+    
+        <div>
+            <a href="index.html">Back</a>
+        </div>
+        <img src="https://cdn.telanganatoday.com/wp-content/uploads/2022/04/Google-multisearch-tool-to-help-users-search-with-photos.jpg" alt="Google">
+    </body>
+</html>
